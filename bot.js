@@ -104,7 +104,7 @@ bot.hears('❓ Help', (ctx) => {
     '📊 Get my info - View your saved information\n' +
     '🌐 Visit website - Go to our website\n' +
     '❓ Help - Show this help message\n' +
-    '🔄 Regenerate code - Get a new unique code'
+    '🔄 my code - Get the code again'
   );
 });
 
@@ -132,7 +132,7 @@ bot.hears('🌐 Visit website', (ctx) => {
 });
 
 // Regenerate code handler
-bot.hears('🔄 Regenerate code', async (ctx) => {
+bot.hears('🔄 my code', async (ctx) => {
   const user = ctx.from;
   const chat = ctx.chat;
 
