@@ -82,7 +82,7 @@ bot.command('start', async (ctx) => {
     await ctx.reply(
       `Welcome, ${user.first_name}! Your unique code has been generated.`,
       Markup.keyboard([
-        ['📊 Get my info', '🌐 Visit website'],
+        ['📊 Get my info ahah', '🌐 Visit website'],
         ['❓ Help', '🔄 Regenerate code']
       ]).resize()
     );
